@@ -4,3 +4,4 @@ matplotlib
 sklearn
 plotly
 dash
+json
