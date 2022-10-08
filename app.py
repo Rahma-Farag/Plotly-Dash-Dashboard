@@ -285,4 +285,6 @@ def update_single_fig(hoverData):
     fig2.update_layout(title_x= 0.5, title_y=0.85, margin=dict(t=100,r=40), title_font_color= rgb_color, font={"size":16, "color":rgb_color})
     
     return fig1, fig2
-app.run_server()
+
+if __name__=='__main__':
+    app.run_server()
